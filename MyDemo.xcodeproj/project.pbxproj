@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		040303C91FC6CD1B00E5C3B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040303C81FC6CD1B00E5C3B6 /* AppDelegate.swift */; };
-		040303CB1FC6CD1B00E5C3B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040303CA1FC6CD1B00E5C3B6 /* ViewController.swift */; };
+		040303CB1FC6CD1B00E5C3B6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040303CA1FC6CD1B00E5C3B6 /* FirstViewController.swift */; };
 		040303CE1FC6CD1B00E5C3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040303CC1FC6CD1B00E5C3B6 /* Main.storyboard */; };
 		040303D01FC6CD1B00E5C3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040303CF1FC6CD1B00E5C3B6 /* Assets.xcassets */; };
 		040303D31FC6CD1B00E5C3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040303D11FC6CD1B00E5C3B6 /* LaunchScreen.storyboard */; };
+		040303DC1FC6CE0B00E5C3B6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040303DA1FC6CE0B00E5C3B6 /* SecondViewController.swift */; };
+		040303F61FC738FC00E5C3B6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040303F51FC738FC00E5C3B6 /* ThirdViewController.swift */; };
+		045C52D01FC987810093DC7B /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C52CF1FC987810093DC7B /* ForthViewController.swift */; };
+		045C52EC1FCA724A0093DC7B /* Toaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045C52EB1FCA724A0093DC7B /* Toaster.framework */; };
+		ED6F44CB6EC7BF20E42E19A4 /* Pods_MyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA151473A33FA65AFD5EB47E /* Pods_MyDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040303C51FC6CD1B00E5C3B6 /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040303C81FC6CD1B00E5C3B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		040303CA1FC6CD1B00E5C3B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040303CA1FC6CD1B00E5C3B6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		040303CD1FC6CD1B00E5C3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040303CF1FC6CD1B00E5C3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040303D21FC6CD1B00E5C3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040303D41FC6CD1B00E5C3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040303DA1FC6CE0B00E5C3B6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		040303F51FC738FC00E5C3B6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		045C52CF1FC987810093DC7B /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		045C52D71FCA70240093DC7B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = "../../Desktop/bmob-ios-demo-master/ThirdPartyLogin/ThirdPartyLogin/libWeChatSDK.a"; sourceTree = "<group>"; };
+		045C52D81FCA70240093DC7B /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = "../../Desktop/bmob-ios-demo-master/ThirdPartyLogin/ThirdPartyLogin/WXApi.h"; sourceTree = "<group>"; };
+		045C52D91FCA70240093DC7B /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = "../../Desktop/bmob-ios-demo-master/ThirdPartyLogin/ThirdPartyLogin/WXApiObject.h"; sourceTree = "<group>"; };
+		045C52E61FCA71510093DC7B /* Toaster.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toaster.framework; path = "Pods/../build/Release-iphoneos/Toaster/Toaster.framework"; sourceTree = "<group>"; };
+		045C52EB1FCA724A0093DC7B /* Toaster.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toaster.framework; path = "../../Library/Developer/Xcode/DerivedData/MyDemo-dqepssxmsmbxaycjquuixsdqjuqv/Build/Products/Debug-iphoneos/Toaster/Toaster.framework"; sourceTree = "<group>"; };
+		045C52FF1FCA77400093DC7B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		045C53011FCA774F0093DC7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		045C53031FCA77630093DC7B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		045C53051FCA776E0093DC7B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		045C53071FCA777C0093DC7B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		048ACF971FC96B3D0020E3D1 /* MyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA151473A33FA65AFD5EB47E /* Pods_MyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9C637A65B15DB85EB3C151 /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF5CF5C50FD69009DB14D403 /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045C52EC1FCA724A0093DC7B /* Toaster.framework in Frameworks */,
+				ED6F44CB6EC7BF20E42E19A4 /* Pods_MyDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,8 @@
 			children = (
 				040303C71FC6CD1B00E5C3B6 /* MyDemo */,
 				040303C61FC6CD1B00E5C3B6 /* Products */,
+				14944DC6411218EDFDA5FD07 /* Pods */,
+				EB43B0A58544F926B62CAC63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +81,44 @@
 			isa = PBXGroup;
 			children = (
 				040303C81FC6CD1B00E5C3B6 /* AppDelegate.swift */,
-				040303CA1FC6CD1B00E5C3B6 /* ViewController.swift */,
+				040303CA1FC6CD1B00E5C3B6 /* FirstViewController.swift */,
+				040303DA1FC6CE0B00E5C3B6 /* SecondViewController.swift */,
+				040303F51FC738FC00E5C3B6 /* ThirdViewController.swift */,
+				045C52CF1FC987810093DC7B /* ForthViewController.swift */,
 				040303CC1FC6CD1B00E5C3B6 /* Main.storyboard */,
 				040303CF1FC6CD1B00E5C3B6 /* Assets.xcassets */,
 				040303D11FC6CD1B00E5C3B6 /* LaunchScreen.storyboard */,
 				040303D41FC6CD1B00E5C3B6 /* Info.plist */,
+				048ACF971FC96B3D0020E3D1 /* MyDemo-Bridging-Header.h */,
 			);
 			path = MyDemo;
+			sourceTree = "<group>";
+		};
+		14944DC6411218EDFDA5FD07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF5CF5C50FD69009DB14D403 /* Pods-MyDemo.debug.xcconfig */,
+				CD9C637A65B15DB85EB3C151 /* Pods-MyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB43B0A58544F926B62CAC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045C53071FCA777C0093DC7B /* libc++.tbd */,
+				045C53051FCA776E0093DC7B /* libz.tbd */,
+				045C53031FCA77630093DC7B /* libsqlite3.0.tbd */,
+				045C53011FCA774F0093DC7B /* SystemConfiguration.framework */,
+				045C52FF1FCA77400093DC7B /* CoreTelephony.framework */,
+				045C52EB1FCA724A0093DC7B /* Toaster.framework */,
+				045C52E61FCA71510093DC7B /* Toaster.framework */,
+				045C52D71FCA70240093DC7B /* libWeChatSDK.a */,
+				045C52D81FCA70240093DC7B /* WXApi.h */,
+				045C52D91FCA70240093DC7B /* WXApiObject.h */,
+				BA151473A33FA65AFD5EB47E /* Pods_MyDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040303D71FC6CD1B00E5C3B6 /* Build configuration list for PBXNativeTarget "MyDemo" */;
 			buildPhases = (
+				923DB12AF091AFACC4F674AE /* [CP] Check Pods Manifest.lock */,
 				040303C11FC6CD1B00E5C3B6 /* Sources */,
 				040303C21FC6CD1B00E5C3B6 /* Frameworks */,
 				040303C31FC6CD1B00E5C3B6 /* Resources */,
+				734B07FC06D40CA6702B462D /* [CP] Copy Pods Resources */,
+				A0AD36C6DC4FA1B655D5E96E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +157,7 @@
 					040303C41FC6CD1B00E5C3B6 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = EEQB59Y365;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +193,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		734B07FC06D40CA6702B462D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923DB12AF091AFACC4F674AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AD36C6DC4FA1B655D5E96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040303C11FC6CD1B00E5C3B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040303CB1FC6CD1B00E5C3B6 /* ViewController.swift in Sources */,
+				040303DC1FC6CE0B00E5C3B6 /* SecondViewController.swift in Sources */,
+				040303CB1FC6CD1B00E5C3B6 /* FirstViewController.swift in Sources */,
+				040303F61FC738FC00E5C3B6 /* ThirdViewController.swift in Sources */,
 				040303C91FC6CD1B00E5C3B6 /* AppDelegate.swift in Sources */,
+				045C52D01FC987810093DC7B /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,27 +377,52 @@
 		};
 		040303D81FC6CD1B00E5C3B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5CF5C50FD69009DB14D403 /* Pods-MyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EEQB59Y365;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Toaster",
+				);
 				INFOPLIST_FILE = MyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbf00.MyDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbf00.Demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemo/MyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		040303D91FC6CD1B00E5C3B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9C637A65B15DB85EB3C151 /* Pods-MyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EEQB59Y365;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Toaster",
+				);
 				INFOPLIST_FILE = MyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbf00.MyDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbf00.Demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemo/MyDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -302,6 +445,7 @@
 				040303D91FC6CD1B00E5C3B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
