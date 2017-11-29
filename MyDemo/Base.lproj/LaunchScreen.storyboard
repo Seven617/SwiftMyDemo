@@ -21,11 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="3Bk-UH-wR7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="3Bk-UH-wR7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="3Bk-UH-wR7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3Sv-FE-6gb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3Bk-UH-wR7" secondAttribute="bottom" id="NTF-Pn-7Pe"/>
+                            <constraint firstItem="3Bk-UH-wR7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nmV-jb-8P9"/>
+                            <constraint firstAttribute="trailing" secondItem="3Bk-UH-wR7" secondAttribute="trailing" id="ucX-iB-job"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

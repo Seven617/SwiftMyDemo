@@ -11,13 +11,14 @@ import Toaster
 
 class ThirdViewController: UIViewController {
 
-    @IBAction func backup(_ sender: Any) {
-        self.dismiss(animated: true)
-    }
+  
     @IBOutlet weak var email: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "找回密码"
+//        navigationItem.backBarButtonItem?.title = "返回"
+//          navigationItem.backBarButtonItem = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         // Do any additional setup after loading the view.
     }
 

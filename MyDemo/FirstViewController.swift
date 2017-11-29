@@ -32,6 +32,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //去掉navigationBar的毛玻璃
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        //去掉navigationBar底部黑线
+        self.navigationController?.navigationBar.clipsToBounds = true
         
         //获取屏幕尺寸
         let mainSize = UIScreen.main.bounds.size

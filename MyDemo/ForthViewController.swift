@@ -11,6 +11,7 @@ import Toaster
 class ForthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "注册账号"
     }
  
     
@@ -37,9 +38,7 @@ class ForthViewController: UIViewController {
         }
     }
 
-    @IBAction func back(_ sender: Any) {
-        self.dismiss(animated: true)
-    }
+ 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
